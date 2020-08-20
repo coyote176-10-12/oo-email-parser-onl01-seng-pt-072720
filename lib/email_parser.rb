@@ -10,7 +10,7 @@ class EmailAddressParser
      @parse= parse
    end
 
-   def parse 
-     @par
-      
+   def parse
+      emails.delete(',').split.uniq
+   end  
 end
