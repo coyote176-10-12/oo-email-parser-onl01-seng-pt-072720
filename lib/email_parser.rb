@@ -14,3 +14,4 @@ class EmailAddressParser
       emails.delete(',').split.uniq
    end  
 end
+
